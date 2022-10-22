@@ -38,7 +38,7 @@ const ImageSelector = ({onImage}) => {
     <View style={styles.container}>
         <View style={styles.preview}>
             {!picUrl ?
-                <Text>No image picked yet.</Text>
+                <Text>Ninguna imagen seleccionada.</Text>
                 :
                 <Image 
                     style={styles.imageStyle}
@@ -47,7 +47,7 @@ const ImageSelector = ({onImage}) => {
             }
         </View>
         <Button 
-            title="Take Photo"
+            title="Tomar una foto"
             color={colors.secondary}
             onPress={OnPhoto}
         />

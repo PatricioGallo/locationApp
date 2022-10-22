@@ -6,6 +6,7 @@ export const styles = StyleSheet.create({
         width: '100%',
         alignItems: 'center',
         justifyContent: 'center',
+        
     },
     touchable:{
         width: '90%',
@@ -18,24 +19,26 @@ export const styles = StyleSheet.create({
         marginVertical: 10,
         padding: 20,
         borderRadius: 10,
+        shadowColor: "#000",
     },
     image:{
-        width: 80,
-        height: 80,
+        width: 100,
+        height: 100,
         borderRadius: 10,
         
     },
     info:{
         flex: 1,
-        alignItems: "center",
+        alignItems: "flex-start",
+        marginLeft: 20,
     },
     title:{
-        fontSize: 18,
-        fontStyle: "italic",
+        fontSize: 20,
         marginVertical:10
     },
     address:{
-        fontSize: 15
+        fontSize: 14,
+        color: colors.secondary,
     }
     
 })

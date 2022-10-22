@@ -8,8 +8,7 @@ const PlaceList = ({ navigation }) => {
   const listaPlace = useSelector(state => state.place.places)
 
   const onSelect = (id) => {
-    navigation.navigate("PlaceDetail",{placeId: id})
-    console.log(id);
+    navigation.navigate("PlaceDetail",{placeID: id})
   };
 
   const renderItem = ({item}) =>(

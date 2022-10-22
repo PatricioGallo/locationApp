@@ -1,11 +1,12 @@
 import { View, Text } from "react-native";
-
+import Detail from "../../Components/Detail/Detail";
 import { styles } from "./styles";
 
-const PlaceDetail = ({ navigation }) => {
+const PlaceDetail = ({ navigation, route}) => {
+  const {placeID} = route.params;
   return (
     <View style={styles.container}>
-      <Text>Place Detail</Text>
+      <Detail placeID={placeID} />
     </View>
   );
 };

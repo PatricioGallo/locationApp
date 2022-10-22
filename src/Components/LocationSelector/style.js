@@ -18,5 +18,12 @@ export const styles = StyleSheet.create({
     imageStyle:{
         width:"100%",
         height:"100%",
+    },
+    botoenes:{
+        width:"100%",
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
     }
 });
