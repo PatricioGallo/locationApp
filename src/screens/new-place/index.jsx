@@ -49,7 +49,7 @@ const NewPlace = ({ navigation}) => {
           onPress={onPressButton}
           color={colors.primary}
           styles={styles.button}
-          disabled= {!image && !location && !title}
+          disabled= {!image || !location || !title}
         />
       </View>
     </ScrollView>
